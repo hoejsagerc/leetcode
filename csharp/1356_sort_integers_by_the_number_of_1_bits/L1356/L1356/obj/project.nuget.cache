@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uwkwgF3F3goGwQ6J35V4kLbdgsj7OBA29RcKf73QLXPn5XU2G04tw7Cry+II/9lCWcDrePlCePJmxU6nS7UtpA==",
+  "dgSpecHash": "6UV3hAtQf1WSpYsbfbOLdXuTnn0eTy8GZ3nD+lI7je1ZxZkurX3p2XWSU6nOGn8OCUxJPmE6yMOjuXcqHMFgew==",
   "success": true,
   "projectFilePath": "C:\\Users\\chris\\dev\\repos\\leetcode\\csharp\\1356_sort_integers_by_the_number_of_1_bits\\L1356\\L1356\\L1356.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\chris\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.12\\microsoft.netcore.app.ref.7.0.12.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.12\\microsoft.windowsdesktop.app.ref.7.0.12.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.12\\microsoft.aspnetcore.app.ref.7.0.12.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.12\\microsoft.netcore.app.host.win-x64.7.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-var myArray = new int[] {1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1};
+var myArray = new int[] {1024, 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1};
 
 SortByBits(myArray);
 
@@ -34,10 +34,14 @@ int[] SortByBits(int[] arr)
 
     var sortedList = map.OrderBy(x => x.Values.Max()).ThenBy(x => x.Keys.FirstOrDefault()).ToList();
     var resultArray = new List<int>();
+    Console.WriteLine();
+    Console.WriteLine();
+    Console.WriteLine("Found Solution: ");
     foreach (var x in sortedList)
     {
         resultArray.Add(x.Keys.FirstOrDefault());
+        Console.Write($"{x.Keys.FirstOrDefault()}, ");
     }
-
+    
     return resultArray.ToArray();
 }
