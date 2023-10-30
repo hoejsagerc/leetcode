@@ -32,7 +32,6 @@ int[] SortByBits(int[] arr)
         map.Add(new Dictionary<int, int>(){{ i, count }});
     }
 
-    // var sortedList = map.Select(dict => dict.OrderBy(kvp => kvp.Value).ToDictionary(kvp => kvp.Key, kvp => kvp.Value));
     var sortedList = map.OrderBy(x => x.Values.Max()).ThenBy(x => x.Keys.FirstOrDefault()).ToList();
     var resultArray = new List<int>();
     foreach (var x in sortedList)
