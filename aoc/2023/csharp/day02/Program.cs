@@ -29,10 +29,7 @@ void Main(StreamReader reader)
                 CheckValues(minimumCubes, shownCubes, x, "green");
                 CheckValues(minimumCubes, shownCubes, x, "blue");
             }
-            if (shownCubes["red"] > 12 || shownCubes["green"] > 13 || shownCubes["blue"] > 14)
-            {
-                gamePossible = false;
-            }
+            gamePossible = CheckGameValidity(gamePossible, shownCubes);
         }
         result1 = CheckResult(result1, line, gamePossible);
 
@@ -74,3 +71,13 @@ static int CheckResult(int result1, string line, bool gamePossible)
 
 
 Main(reader);
+
+static bool CheckGameValidity(bool gamePossible, Dictionary<string, int> shownCubes)
+{
+    if (shownCubes["red"] > 12 || shownCubes["green"] > 13 || shownCubes["blue"] > 14)
+    {
+        gamePossible = false;
+    }
+
+    return gamePossible;
+}
