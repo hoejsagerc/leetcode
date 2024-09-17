@@ -10,8 +10,8 @@ leetcode exercises and solutions
 
 | Problem | Difficulty | Solution | Leetcode | Needcode |
 | - | - | - | - | - |
-| Contains Duplicate | Easy | NIY | [Link](https://leetcode.com/problems/contains-duplicate/description/) | [Video](https://www.youtube.com/watch?v=3OamzN90kPg)
-| Valid Anagram | Easy | NIY | [Link](https://leetcode.com/problems/valid-anagram/description/) | [Video](https://www.youtube.com/watch?v=3OamzN90kPg)
+| Contains Duplicate | Easy | [Golang](./easy/217-contains_duplicate/main.go) | [Link](https://leetcode.com/problems/contains-duplicate/description/) | [Video](https://www.youtube.com/watch?v=3OamzN90kPg)
+| Valid Anagram | Easy | [Golang](./easy/242-valid_anagram/main.go) | [Link](https://leetcode.com/problems/valid-anagram/description/) | [Video](https://www.youtube.com/watch?v=9UtInBqnCgA)
 | Two Sum | Easy | [Golang](./easy/1-two_sum/go/main.go) | [Link](https://leetcode.com/problems/two-sum/) | [Video](https://www.youtube.com/watch?v=KLlXCFG5TnA)
 | Group Anagrams | Medium | NIY | [Link](https://leetcode.com/problems/group-anagrams/description/) | [Video](https://www.youtube.com/watch?v=vzdNOK2oB2E)
 | Top K Frequent Elements | Medium | NIY | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Video](https://www.youtube.com/watch?v=YPTqKIgVk-k)

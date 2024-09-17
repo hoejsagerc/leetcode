@@ -2,6 +2,10 @@ package main
 
 // -------------------- METHOD 3 --------------------------
 // Using a hashset to only run the the nums 1 time which will be a O(n)
+// ====> FUNC FACT: leetcode performance (most performant solution)
+// 			runtime: 	94ms 	-> beats 21.17%
+//			memory: 	10.65mb	-> beats 40.80%
+
 func containsDuplicate(nums []int) bool {
 	idxMap := make(map[int]int)
 
@@ -31,6 +35,9 @@ func containsDuplicate(nums []int) bool {
 
 // -------------------- METHOD 1 --------------------------
 // Brute forcing method O(n) for each number which would be O(n^2)
+// ====> FUNC FACT: leetcode performance
+// 			runtime: 	1977ms 	-> beats 5.00%
+//			memory: 	8.03mb	-> beats 93.37% (best in memory -> but slower over all)
 
 // func containsDuplicate(nums []int) bool {
 // 	var mySlice []int
