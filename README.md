@@ -16,9 +16,9 @@ leetcode exercises and solutions
 | Group Anagrams | Medium | [Golang](./medium/49-group_anagrams/main.go) | [Link](https://leetcode.com/problems/group-anagrams/description/) | [Video](https://www.youtube.com/watch?v=vzdNOK2oB2E)
 | Top K Frequent Elements | Medium | [Golang](./medium/347-top_k_frequent_elements/main.go) | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Video](https://www.youtube.com/watch?v=YPTqKIgVk-k)
 | Encode and Decode Strings | Medium | NIY | [Link](https://leetcode.com/problems/encode-and-decode-strings/) | [Video](https://www.youtube.com/watch?v=B1k_sxOSgv8)
-| Product of Array Except Self | Medium | NIY | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Video](https://www.youtube.com/watch?v=bNvIQI2wAjk)
-| Valid Sudoku | Medium | NIY | [Link](https://leetcode.com/problems/valid-sudoku/) | [Video](https://www.youtube.com/watch?v=TjFXEUCMqI8)
-| Longest Consecutive Sequence | Medium | NIY | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Video](https://www.youtube.com/watch?v=P6RZZMu_maU)
+| Product of Array Except Self | Medium | [Golang](./medium/238-product_of_array_except_self/main.go) | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Video](https://www.youtube.com/watch?v=bNvIQI2wAjk)
+| Valid Sudoku | Medium | [Golang](./medium/36-valid_soduko/main.go) | [Link](https://leetcode.com/problems/valid-sudoku/) | [Video](https://www.youtube.com/watch?v=TjFXEUCMqI8)
+| Longest Consecutive Sequence | Medium | [Golang](./medium/128-longest_consecutive_sequence/main.go) | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Video](https://www.youtube.com/watch?v=P6RZZMu_maU)
 
 
 ### 02 - Two Pointers
