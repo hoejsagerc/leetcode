@@ -26,7 +26,7 @@ leetcode exercises and solutions
 | Problem | Difficulty | Solution | Leetcode | Needcode |
 | - | - | - | - | - |
 | Valid Palindrome | Easy | [Golang](./easy/125-valid_palindrome/main.go) | [Link](https://leetcode.com/problems/valid-palindrome/) | [Video](https://www.youtube.com/watch?v=jJXJ16kPFWg)
-| Two Sum II Input Array Is Sorted | Medium | NIY | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Video](https://www.youtube.com/watch?v=cQ1Oz4ckceM)
+| Two Sum II Input Array Is Sorted | Medium | [Golang](./medium/167-two_sum_ii_input_array_sorted/main.go) | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Video](https://www.youtube.com/watch?v=cQ1Oz4ckceM)
 | 3Sum | Medium | NIY | [Link](https://leetcode.com/problems/3sum/) | [Video](https://www.youtube.com/watch?v=jzZsG8n2R9A)
 | Container With Most Water | Medium | NIY | [Link](https://leetcode.com/problems/container-with-most-water/) | [Video](https://www.youtube.com/watch?v=UuiTKBwPgAo)
 | Trapping Rain Water | Hard | NIY | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Video](https://www.youtube.com/watch?v=ZI2z5pq0TqA)
